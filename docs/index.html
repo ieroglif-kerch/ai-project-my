@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Агентство недвижимости в Керчи — аренда квартир, студий, домов, коттеджей и офисов посуточно и на длительный срок"
+    />
+    <title>Босфор Недвижимость — аренда жилья в Керчи</title>
+    <script>
+      (function () {
+        if (localStorage.getItem('theme') !== 'light') {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="/ai-project-my/assets/index-BnKzv2Yx.js"></script>
+    <link rel="stylesheet" crossorigin href="/ai-project-my/assets/index-Dwlus3hk.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__inner">
+        <div class="header__row">
+          <h1 class="header__title">Босфор Недвижимость</h1>
+          <button
+            type="button"
+            class="theme-toggle"
+            id="theme-toggle"
+            aria-label="Включить дневную тему"
+            aria-pressed="true"
+          >
+            <span class="theme-toggle__icon" aria-hidden="true">☀️</span>
+            <span class="theme-toggle__text">День</span>
+          </button>
+        </div>
+        <p class="header__subtitle">
+          Аренда посуточно и на длительный срок — квартиры, студии, коттеджи, частные дома и офисы
+        </p>
+      </div>
+    </header>
+
+    <main class="main">
+      <ul class="catalog" aria-label="Каталог объектов аренды"></ul>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__grid">
+          <section class="footer__map-wrap" aria-labelledby="footer-map-heading">
+            <h2 class="footer__heading" id="footer-map-heading">Как нас найти</h2>
+            <p class="footer__map-caption">г. Краснодар, Красная площадь</p>
+            <div class="footer__map">
+              <iframe
+                class="footer__map-frame"
+                title="Яндекс Карта: Краснодар, Красная площадь"
+                src="https://yandex.ru/map-widget/v1/?text=%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B4%D0%B0%D1%80%2C%20%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D1%8C&amp;z=16&amp;l=map&amp;pt=38.97531%2C45.08050%2Cpm2rdm"
+                allowfullscreen
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <a
+              class="footer__map-link"
+              href="https://yandex.ru/maps/?text=%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B4%D0%B0%D1%80%2C%20%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D1%8C"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Открыть в Яндекс Картах
+            </a>
+          </section>
+
+          <section class="footer__block footer__block--legal" aria-labelledby="footer-rights-heading">
+            <h2 class="footer__heading" id="footer-rights-heading">Права и информация</h2>
+            <ul class="footer__list footer__list--legal">
+              <li class="footer__item">
+                <span class="footer__value">© 2026 «Босфор Недвижимость»</span>
+              </li>
+              <li class="footer__item">
+                <span class="footer__value">Все права на материалы сайта защищены</span>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Пользовательское соглашение</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Политика конфиденциальности</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Согласие на обработку персональных данных</a>
+              </li>
+              <li class="footer__item">
+                <span class="footer__value footer__note"
+                  >Информация на сайте не является публичной офертой. Условия аренды и
+                  наличие объектов уточняйте у менеджера.</span
+                >
+              </li>
+            </ul>
+          </section>
+
+          <section class="footer__block footer__block--contacts" aria-labelledby="footer-contacts-heading">
+            <h2 class="footer__heading" id="footer-contacts-heading">Контакты</h2>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <span class="footer__label">Город</span>
+                <span class="footer__value">Краснодар, Краснодарский край</span>
+              </li>
+              <li class="footer__item">
+                <span class="footer__label">Офис</span>
+                <address class="footer__value footer__address">
+                  Красная площадь
+                </address>
+              </li>
+              <li class="footer__item">
+                <span class="footer__label">Телефон</span>
+                <a class="footer__link" href="tel:+79789039053">+7 (978) 903-90-53</a>
+              </li>
+              <li class="footer__item">
+                <span class="footer__label">E-mail</span>
+                <a class="footer__link" href="mailto:rent@bosfor-kerch.ru"
+                  >rent@bosfor-kerch.ru</a
+                >
+              </li>
+              <li class="footer__item">
+                <span class="footer__label">Режим работы</span>
+                <span class="footer__value">Пн–Сб: 9:00–19:00, Вс: выходной</span>
+              </li>
+            </ul>
+          </section>
+        </div>
+
+        <p class="footer__bottom">Агентство недвижимости · HTML + CSS + JS (MVP) · Vite 5.4.11</p>
+      </div>
+    </footer>
+
+    <div class="modal" id="product-modal" hidden aria-hidden="true">
+      <div class="modal__overlay" data-close tabindex="-1"></div>
+      <div
+        class="modal__dialog"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal-title"
+      >
+        <button type="button" class="modal__close" data-close aria-label="Закрыть">
+          ×
+        </button>
+
+        <div class="modal__layout">
+          <section class="modal__gallery" aria-label="Фотографии объекта">
+            <div class="carousel">
+              <button
+                type="button"
+                class="carousel__btn carousel__btn--prev"
+                aria-label="Предыдущее фото"
+              >
+                ‹
+              </button>
+              <div class="carousel__viewport">
+                <div class="carousel__track" id="carousel-track"></div>
+              </div>
+              <button
+                type="button"
+                class="carousel__btn carousel__btn--next"
+                aria-label="Следующее фото"
+              >
+                ›
+              </button>
+            </div>
+            <div class="carousel__dots" id="carousel-dots"></div>
+          </section>
+
+          <div class="modal__content">
+            <h2 class="modal__title" id="modal-title"></h2>
+            <p class="modal__desc" id="modal-desc"></p>
+
+            <section class="modal__section" aria-labelledby="modal-specs-heading">
+              <h3 class="modal__section-title" id="modal-specs-heading">
+                Параметры объекта
+              </h3>
+              <dl class="modal__specs" id="modal-specs"></dl>
+            </section>
+
+            <section class="modal__section" aria-labelledby="modal-reviews-heading">
+              <h3 class="modal__section-title" id="modal-reviews-heading">Отзывы</h3>
+              <div class="modal__reviews" id="modal-reviews"></div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
